@@ -9,13 +9,40 @@ body {
 header {
   background-color: rgb(8, 61, 122);
   color: #fff;
+  padding:0 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
   padding: 10px;
-  text-align: center;
+}
+
+nav a:hover {
+  color: rgb(121, 172, 230);
+}
+
+.welcome {
+  color: rgb(8, 61, 122);
+}
+
+.links {
+  text-decoration: none;
+  color: rgb(8, 61, 122);
 }
 
 main {
   padding: 20px;
-  margin: 20px; 
+  margin: 15px; 
 }
 
 footer {
