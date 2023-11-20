@@ -35,6 +35,10 @@ nav a:hover {
   color: rgb(8, 61, 122);
 }
 
+#username {
+  width: 180px;
+}
+
 .links {
   text-decoration: none;
   color: rgb(8, 61, 122);
