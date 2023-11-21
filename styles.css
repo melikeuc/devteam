@@ -23,7 +23,6 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  overflow: hidden;
 }
 
 nav a {
@@ -41,9 +40,6 @@ nav a:hover {
   color: rgb(8, 61, 122);
 }
 
-#username {
-  width: 180px;
-}
 
 .links {
   text-decoration: none;
@@ -53,6 +49,11 @@ nav a:hover {
 main {
   padding: 20px;
   margin: 15px; 
+}
+
+
+#username {
+  width: 180px;
 }
 
 footer {
@@ -87,7 +88,6 @@ table {
 
   @media screen and (max-width: 768px) {
     nav {
-      
-      overflow: scroll;
+      display: none;
   }
 }
