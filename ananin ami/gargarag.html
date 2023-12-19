@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTeam Website Yapıyor</title>
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<!--
+    Açtığımız her <x> 'i  </x> şeklinde kapatmalıyız, istisnalar hariç
+<br>: Line break
+<hr>: Horizontal rule
+<img>: Image
+<input>: Input fields
+<meta>: Metadata
+/> or > bunlarla kapatıyoruz
+-->
+<body>
+    <header>
+      <h1>DevTeam Website Yapıyor!</h1>
+        <nav>
+          <div>
+            <a href="#">Amacımız</a>
+            <a href="#">Biz Kimiz?</a>
+            <a href="#">İletişim</a>
+          </div>
+        </nav>
+    </header>
+    <main> 
+        <h1 class = "welcome">DevTeam'in Websitesine Hoş Geldin!</h1>
+        <p>Metin giriniz. (:D)</p>
+        <h1>Önemli Başlıklar</h1>
+        <br>
+        <strong>Bold Metin</strong>
+        <hr>
+        <em>İtalik Metin</em>    
+        <br>
+        <h2>Bu siteyi nasıl mı yaptık?</h2>
+        <ul>
+          <li>HTML(HyperText Markup Language) ile sayfa yapısını oluşturduk.</li>
+          <li>CSS(Cascading Style Sheets) sayesinde HTML ile oluşturduğumuz elementlerin görünümünü ve düzenini oluşturduk.</li>
+          <li>Şu şekilde de listenin içine liste oluşturduk:</li>
+                <ul>
+                    <li>YOOOK</li>
+                    <li>NASIL YOK</li>
+                    <li>YOK İŞTEEE</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Kendinizi geliştirmek için kullanabileceğiniz kaynaklar:</h2>
+        <ol>
+            <li><a class ="links" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank">freeCodeCamp Responsive Web Design Certification</a></li>
+            <li><a class ="links" href="https://youtu.be/Sagg08DrO5U" target="_blank">Bu videodan da HTML öğrenebilirsiniz:D</a></li>
+        </ol>
+<br>
+<h1 id="myHeading">Javascript ne yapar?</h1>
+    <button id="myButton">Butona bas!</button>
+
+    <script>
+        var heading = document.getElementById('myHeading');
+        var button = document.getElementById('myButton');
+        button.addEventListener('click', function() {
+            heading.innerHTML = 'YOOOK';
+        });
+    </script>
+<br>
+<br>
+<hr>
+    <h1>DevTeam Kimdir?</h1>
+<hr>
+
+<p>Compec'in ar-ge koludur ve bolca garagara yapar.</p>
+
+<form action="https://media.tenor.com/OOootTpvYDoAAAAC/yok-diyen-ghost-rider-yok.gif" method="get">
+    <label for="username">DevTeam'e katıl:</label>
+    <input type="text" id="username" name="username" placeholder = "semihmutsuz31@compec.org">
+    <input type="submit" value="Submit">
+   </form>
+<br>
+<h2>Liderler</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>İsim</th>
+        <th>Soyisim</th>
+        <th>En Sevdiği Yer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Melike</td>
+        <td>Uç</td>
+        <td>New Hall Çatı</td>
+      </tr>
+      <tr>
+        <td>Semih</td>
+        <td>Mutlu</td>
+        <td>4 Levent</td>
+      </tr>
+      <tr>
+        <td>Hüseyin Emir</td>
+        <td>Akdağ</td>
+        <td>59RK</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <img src="603ec5023c4ad8fde1783428_Ij2FnlaQX3wZEqCdfWmynR3kTFRlelaf-BXa21868XGfGWQiBv5FISkffcRaUhXrgoKiMX9FiLDGZ2jxwKGdt_vTyGUVHlqcm9uMjUBNQRgltzfgD3TulNwNixxWI2R3ay9vcAc7.jpeg" alt="office">
+
+    </main>
+    <footer>
+        <p>&copy;2023 DevTeam. Tüm hakkı saklıdır.</p>
+    </footer>
+</body>
+
+</html>
